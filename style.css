@@ -449,3 +449,52 @@ header {
   color: #382e15;
   font-size: 25px;
 }
+
+/* Pre Footer Meal  */
+
+.meal {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  background-color: #ede8d0;
+}
+
+.meal-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.meal-left h2 {
+  color: #382e15;
+  font-weight: 300;
+  font-size: 35px;
+}
+
+.meal-left p {
+  color: #382e15;
+  font-size: 14px;
+}
+
+.meal button {
+  width: 190px;
+  height: 45px;
+  background-color: #382e15;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.meal button:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  background-color: #382e15;
+  height: 400px;
+  width: 100%;
+}
