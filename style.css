@@ -1,0 +1,398 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ede8d0;
+}
+
+/* NAV BAR SECTION */
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  margin: 10px;
+}
+
+.nav-logo img {
+  width: 120px;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  background: #fff;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nav-link {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.nav-log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav-log img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-log a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-links ul li a:hover {
+  text-decoration: underline;
+}
+.nav-log a:hover {
+  color: rgb(73, 71, 71);
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: #ede8d0;
+  width: 50%;
+  height: 450px;
+}
+
+.hero-title {
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 10px;
+  color: #382e15;
+}
+
+.hero-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: #ede8d0;
+  width: 50%;
+  height: 450px;
+  flex-direction: column;
+}
+
+.hero-right p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.hero-right span {
+  color: black;
+  font-weight: 600;
+}
+
+.hero-button button {
+  background: #382e15;
+  color: #fff;
+  font-size: 28px;
+  padding: 15px 40px;
+  border-radius: 40px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.hero-button button:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ede8d0;
+  width: 100%;
+}
+
+.hero-banner img {
+  width: 1750px;
+  height: 850px;
+}
+
+/* Gallery Section */
+
+.gallery {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+.heart {
+  text-align: center;
+}
+
+.heart img {
+  width: 40px;
+}
+
+.heart h3 {
+  color: #382e15;
+  font-size: 15px;
+}
+
+.g-title {
+  color: #382e15;
+  font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.g-par {
+  text-align: center;
+  width: 550px;
+  font-size: 14px;
+}
+
+.g-par span {
+  color: black;
+  font-weight: 600;
+}
+
+.gallery-photo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.gallery-photo img {
+  width: 450px;
+}
+
+/* Occasion section */
+
+.occasion {
+  width: 100%;
+  min-height: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.oc-header {
+  padding: 15px;
+  color: #382e15;
+  font-size: 15px;
+}
+
+.oc-title {
+  color: #382e15;
+  font-size: 50px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  width: 600px;
+}
+
+.oc-para {
+  width: 1000px;
+  font-size: 35px;
+  color: #382e15;
+}
+
+.oc-photo {
+  width: 1700px;
+  height: auto;
+}
+
+.oc-photo img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Main Menu */
+
+.main-menu {
+  width: 100%;
+  min-height: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ede8d0;
+}
+
+.main-container {
+  position: relative;
+  width: 550px;
+  height: 850px;
+  border: 2px solid #382e15;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede8d0;
+}
+
+.back-menu {
+  position: absolute;
+  width: 550px;
+  height: 850px;
+  background-color: #382e15;
+  transform: rotate(4deg);
+}
+
+.m-title {
+  color: #382e15;
+  font-size: 45px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+}
+
+.p-title {
+  color: #382e15;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+.main-container img {
+  width: 95%;
+}
+
+.menu-link {
+  color: #382e15;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.m-footer {
+  color: #382e15;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+/* Guest Section */
+
+.guests {
+  width: 100%;
+  min-height: 1100px;
+  position: relative;
+}
+
+.guest-photo {
+  width: 100%;
+  height: 100%;
+}
+
+.guest-photo img {
+  width: 100%;
+  height: 1605px;
+  object-fit: cover;
+}
+
+.guest-title {
+  position: absolute;
+  color: #fff;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 70px;
+  width: 713;
+  height: 166;
+  top: 50px;
+  left: 15px;
+}
+
+.star {
+  position: absolute;
+  width: 365px;
+  height: 290px;
+  background-color: #ede8d0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: 15px;
+  top: 800px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.star img {
+  width: 30px;
+  height: 30px;
+}
+
+.star1 {
+  position: relative;
+}
