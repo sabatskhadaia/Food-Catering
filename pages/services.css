@@ -1,0 +1,316 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+/* NAV BAR SECTION */
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  margin: 10px;
+}
+
+.nav-logo img {
+  width: 120px;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  background: #fff;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nav-link {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.nav-log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav-log img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-log a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-links ul li a:hover {
+  text-decoration: underline;
+}
+.nav-log a:hover {
+  color: rgb(73, 71, 71);
+}
+
+/* Footer */
+
+footer {
+  background-color: #382e15;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: auto;
+}
+
+.f-logo {
+  padding: 50px;
+  height: 250px;
+}
+
+.policy {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.policy a {
+  text-decoration: underline;
+  color: #ede8d0;
+  font-size: 14px;
+}
+
+.footer-company {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-p {
+  color: #ede8d0;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.company-links {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+}
+
+.company-links a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.statement a {
+  color: #ede8d0;
+}
+
+.terms a {
+  color: #ede8d0;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 30px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-kitchen {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.adress {
+  color: #fff;
+  margin: 30px;
+  text-align: center;
+}
+
+.mail {
+  color: #fff;
+  margin: 30px;
+  text-align: center;
+}
+
+.wix {
+  color: #ede8d0;
+  font-size: 10px;
+  text-align: center;
+}
+
+.wix a {
+  color: #ede8d0;
+}
+
+/* SERVUCES PAGE  */
+
+/* SERVICES HERO  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ser-hero {
+  width: 100%;
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.ser-header {
+  color: #382e15;
+  display: block;
+}
+
+.ser-front {
+  width: 420px;
+  height: 430px;
+  position: relative;
+}
+
+.ser-back {
+  width: 460px;
+  height: 430px;
+  background-color: #382e15;
+  position: absolute;
+  transform: rotate(4deg);
+}
+
+.ser-catering {
+  width: 1550px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.catering-h2 {
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 140px;
+  font-weight: 300;
+  color: #382e15;
+}
+
+.catering-p {
+  font-size: 18px;
+}
+
+.catering-p span {
+  color: #382e15;
+  font-weight: 600;
+}
+
+.ser-container {
+  width: 1500px;
+  min-height: 1300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  gap: 20px;
+}
+
+.corporate { 
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.wedding { 
+    grid-column: 1;
+}
+
+.dinner { 
+    grid-column: -3;
+    grid-row: -4 / -3;
+}
+
+.wedding {
+  width: 720px;
+  height: 860px;
+  padding: 20px;
+}
+
+.wedig img {
+  width: 690px;
+  height: 780px;
+  object-fit: cover;
+}
+
+.weddingh {
+  color: #382e15;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.weddingp {
+  font-size: 18px;
+  color: #382e15;
+}

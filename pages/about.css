@@ -1,0 +1,274 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+/* NAV BAR SECTION */
+
+.nav-bar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  margin: 10px;
+}
+
+.nav-logo img {
+  width: 120px;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  background: #fff;
+  padding: 8px;
+  border-radius: 30px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nav-link {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.nav-log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.nav-log img {
+  width: 25px;
+  height: 25px;
+}
+
+.nav-log a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-links ul li a:hover {
+  text-decoration: underline;
+}
+.nav-log a:hover {
+  color: rgb(73, 71, 71);
+}
+
+/* Footer */
+
+footer {
+  background-color: #382e15;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: auto;
+}
+
+.f-logo {
+  padding: 50px;
+  height: 250px;
+}
+
+.policy {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.policy a {
+  text-decoration: underline;
+  color: #ede8d0;
+  font-size: 14px;
+}
+
+.footer-company {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-p {
+  color: #ede8d0;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.company-links {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  text-align: center;
+}
+
+.company-links a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.statement a {
+  color: #ede8d0;
+}
+
+.terms a {
+  color: #ede8d0;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin: 30px;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-kitchen {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.adress {
+  color: #fff;
+  margin: 30px;
+  text-align: center;
+}
+
+.mail {
+  color: #fff;
+  margin: 30px;
+  text-align: center;
+}
+
+.wix {
+  color: #ede8d0;
+  font-size: 10px;
+  text-align: center;
+}
+
+.wix a {
+  color: #ede8d0;
+}
+
+/* ABOUT PAGE  */
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-header img {
+  width: 40px;
+  height: 40px;
+}
+
+.about-header h2 {
+  color: #382e15;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 600;
+}
+
+.about-gallery {
+  min-height: 800px;
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.about-gallery .about-p {
+  width: 870px;
+  height: 130px;
+  line-height: 110px;
+}
+
+.about-gallery::-webkit-scrollbar {
+  width: 0;
+}
+
+.about-p {
+  transition: all 1 ease-in;
+}
+
+.about-p img:hover {
+  transform: scale(1.05);
+}
+
+.tradition {
+  padding: 30px;
+  width: 1800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.tradition-h h2{
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 115px;
+  font-weight: 300;
+  color: #382e15;
+}
+
+.tradition-p {
+    width: 1000px;
+  font-size: 20px;
+}
